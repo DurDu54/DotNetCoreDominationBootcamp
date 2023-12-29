@@ -11,5 +11,7 @@ namespace DotNetCoreDominationBootcampDay3.Models.ORM
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Employee> Employees{ get; set; }
+        public DbSet<Student> students{ get; set; }
+        public DbSet<Course> Courses{ get; set; }
     }
 }
